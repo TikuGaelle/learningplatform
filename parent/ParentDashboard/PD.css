@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+	background-color: #45b6fe;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#headline{
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-family: lato;
+}
+
+#subheadline{
+	font-family: lato;
+	margin-top: -20px;
+	color: #464b52;
+	font-size: 25px;
+}
+
+#firstImages{
+	width: 190px;
+	height: 220px;
+}
+
+#L,#G{
+	font-size: 80px;
+}
+
+#start,#start1{
+	background-color: white;
+}
+
+#start1{
+	margin-left: 15px;
+}
+
+#desk{
+	background-color: #45b6fe;
+	margin-top: -23px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*responsive design*/
+@media(max-width: 1000px){
+	#desk{
+		visibility: hidden;
+		margin-top: -600px;
+	}
+	#row2desk{
+		visibility: hidden;
+	}
+	#row2mob{
+		margin-top: -1200px;
+	}
+	#hr1{
+		visibility: hidden;
+	}
+	#hr2{
+		visibility: hidden;
+	}
+	#dyk{
+		visibility: hidden;
+		margin-top: -230px;
+	}
+}
+
+@media(min-width: 1000px){
+	#mob{
+		visibility: hidden;
+		margin-top: 1000px;
+	}
+	#row2mob{
+		visibility: hidden;
+	}
+	#row8mob{
+		visibility: hidden;
+		margin-top: -3300px;
+	}
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*row customization*/
+#row2mob{
+	background-color:blue; 
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: -1197px;
+}
+
+#row2mob h5{
+	font-size: 50px;
+	margin-top: 20px;
+	color: pink
+}
+
+#row2mob p{
+	font-size: 50px;
+	color: white;
+}
+
+#row2mob button{
+	background-color: orange
+}
+
+
+#row2desk h5{
+	font-size: 20px;
+	color: pink;
+}
+
+#row2desk p{
+	font-size: 20px;
+	color: white;
+}
+
+#row2desk button{
+	background-color: orange;
+	color: black;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*button customization*/
+.btn{
+	background-color: #45b6fe;
+}
+
+.btn:hover{
+	-ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+#btnn{
+	background-color: black;
+	color: white;
+}
+
+#btnn:hover{
+	-ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+#btnnd, #btnnds{
+	font-size: 40px;
+}
+
+#btnnds{
+	color: white; 
+	background-color: black;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*mobile 2*/
+#mob2{
+	background-image: url('dots.jpg');
+	padding-top: 300px; 
+	padding-bottom: 200px;
+}
